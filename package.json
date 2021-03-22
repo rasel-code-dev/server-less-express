@@ -8,7 +8,7 @@
   },
   "main": "functions/server.js",
   "scripts": {
-    "build": "netlify-lambda build",
+    "build": "netlify-lambda build express",
     "start": "nodemon server-local.js"
   }
 }

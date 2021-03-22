@@ -1,5 +1,5 @@
 
 
-const app = require('./app.js');
+const server = require('./server.js');
 
-app.listen(3000, () => console.log('Local app listening on port 3000!'));
+server.listen(3000, () => console.log('Local app listening on port 3000!'));
